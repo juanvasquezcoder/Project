@@ -4,29 +4,245 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="icon" href="../Icons/icon.svg">
-        <link rel="stylesheet" href="../CSS/styles.css">
+        <title>E-commerce</title>
+        <link rel="icon" href="./Icons/cat-solid-24.png">
+        <link rel="stylesheet" href="./CSS/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     </head>
     <body>
-        <header>
-            <h2><a href="./index.html">logo</a></h2>
-            <form action="">
-                <i class="fa fa-solid fa-magnifying-glass"></i>
-                <input type="search" name="search" id="search" placeholder="Buscar">
-            </form>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Tiendas</a></li>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">Contactanos</a></li>
-                <li><a href="#">Categorias</a></li>
-            </ul>
+        <header class="header">
+            <div class="present">
+                <h2 class="logo"><a href="./index.html">logo</a></h2>
+                <form action="" class="search">
+                    <input type="search" name="search" id="search" placeholder="Buscar">
+                    <i class="fa fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Categorias</a></li>
+                </ul>
+            </nav>
         </header>
+        <section>
+            <article class="slider_sale">
+                <figure class="box_sale">
+                    <img src="./images/image (2).jpg" alt="" loading="lazy" class="img_sale">
+                </figure>
+            </article>
+            <article class="slider_products" id="slider_products">
+                <div class="container">
+                    <div class="product" data-id="1">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="2">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="3">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="4">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="5">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="6">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                    <div class="product" data-id="7">
+                        <div class="card">
+                            <img src="./images/image (1).jpg" alt="" loading="lazy" class="img_product">
+                            <h5 class="prices">$ 20.000</h5>
+                            <div class="rating">
+                                <div class="add_cartshopping">
+                                    <img src="./Icons/cart-add-alt-solid-204.svg"  class="icon">
+                                    <img src="./Icons/cart-check-alt-solid-204.svg"  class="icon">
+                                </div>
+                                <div class="like">
+                                    <img src="./Icons/heart-regular-204.svg" alt="" class="icon">
+                                    <img src="./Icons/heart-solid-204.svg" alt="" class="icon">
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique esse porro eligendi eum dicta sed!</p>
+                            </div>
+                        </div>
+                        <div class="tooltip">
+                            <h2>Name 1</h2>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </body>
     <footer>
-        
+        <section>
+            <div>
+                <h2>titulo</h2>
+                <p>nombre 1</p>
+                <p>nombre 2</p>
+                <p>nombre 3</p>
+                <p>nombre 4</p>
+                <p>nombre 5</p>
+                <p>nombre 6</p>
+            </div>
+            <div>
+                <h2>titulo</h2>
+                <p>nombre 1</p>
+                <p>nombre 2</p>
+                <p>nombre 3</p>
+                <p>nombre 4</p>
+                <p>nombre 5</p>
+                <p>nombre 6</p>
+            </div>
+            <div>
+                <h2>titulo</h2>
+                <p>nombre 1</p>
+                <p>nombre 2</p>
+                <p>nombre 3</p>
+                <p>nombre 4</p>
+                <p>nombre 5</p>
+                <p>nombre 6</p>
+            </div>
+            <div>
+                <h2>titulo</h2>
+                <p>nombre 1</p>
+                <p>nombre 2</p>
+                <p>nombre 3</p>
+                <p>nombre 4</p>
+                <p>nombre 5</p>
+                <p>nombre 6</p>
+            </div>
+            <div>
+                <h2>titulo</h2>
+                <p>nombre 1</p>
+                <p>nombre 2</p>
+                <p>nombre 3</p>
+                <p>nombre 4</p>
+                <p>nombre 5</p>
+                <p>nombre 6</p>
+            </div>
+        </section>
     </footer>
+    <script src="./JavaScript/main.js"></script>
 </html>
